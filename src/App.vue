@@ -1,14 +1,9 @@
 <script setup>
+import TestPage from "./pages/test-page.vue";
 </script>
 
 <template>
-  <div>
-    <v-app>
-      <v-btn>
-        Button
-      </v-btn>
-    </v-app>
-  </div>
+  <test-page />
 </template>
 
 <style scoped>
