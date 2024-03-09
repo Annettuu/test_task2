@@ -63,7 +63,7 @@ onMounted(() => {
 .task-text {
   font-size: 2em;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .test-page {
     padding: 20px;
   }

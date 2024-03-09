@@ -52,7 +52,7 @@ const checkAnswer = () => {
   bottom: 12px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .check {
     right: 20px;
   }
