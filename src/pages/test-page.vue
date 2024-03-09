@@ -28,7 +28,7 @@ onMounted(() => {
 
 <template>
   <div class="test-page d-flex flex-column">
-    <PlayerAccount class="margin" />
+    <PlayerAccount class="margin" :coin="1000" :name="'Anton'" />
     <div class="d-flex justify-space-between align-center">
       <v-btn><img src="../assets/images/close.png"></v-btn>
       <div class="text-group d-flex align-center flex-column">
